@@ -55,7 +55,8 @@ func startHandler(c *td.Client, m *td.Message) error {
 		}(chatID)
 
 		response := fmt.Sprintf(
-			"<img src=\"%s\"/>\n"+
+			"<img src=\"https://blogger.googleusercontent.com/img/a/AVvXsEi53o6Hjoew-9R-fEGhir1OHhESl-pZqzBBCtgX-9RLDyPSCivu3LF0Jz3fzAxDTsv00vs50Zx8hyGVYKc9ljIAxC2UKMFmqIez2vtxA8cVIcXzyVpPLDP6r6N3sJ6pEsA6U_VRgefS8aNnxFGDnzEwdN_Oy2Gb7ll872rbPBsTiG7K5cM-zK3p719tyLM=s1600\"/>\n"+
+			
 				"<h3>Welcome, %s!</h3>\n"+
 				"<p><b>%s</b> lets you stream high-quality music and video directly in Telegram voice and video chats.</p>\n\n"+
 				"<p><b>Supported platforms:</b> YouTube, Spotify, Apple Music, SoundCloud, Deezer, Twitch, and many more.</p>\n\n"+
